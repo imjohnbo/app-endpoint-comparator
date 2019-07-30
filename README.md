@@ -2,4 +2,4 @@
 
 What is available to me in the v3 REST API from the context of a GitHub App?
 
-![Screenshot](./readme-screenshot.png)
+<img src="./readme-screenshot.png" width=500 />
