@@ -4,14 +4,12 @@ import {
     Heading,
     Link
   } from '@primer/components';
-import { genericTypeAnnotation } from '@babel/types';
 
 class Routes extends React.Component {
     render() {
       return (
         <div>
           {Object.keys(this.props.routes).map(route => {
-            console.log(this.props.routes[route])
             return (
               <div key={route}>
                 <Heading p={3}>{route}</Heading>

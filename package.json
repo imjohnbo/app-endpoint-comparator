@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@githubprimer/octicons-react": "^8.5.0",
+    "@octokit/routes": "^20.9.2",
     "@primer/components": "^13.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

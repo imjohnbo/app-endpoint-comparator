@@ -6,6 +6,7 @@ import {
 } from '@primer/components';
 import './App.css';
 import Routes from './Routes.js';
+import routes from '@octokit/routes';
 
 class App extends React.Component {
   constructor(props) {
@@ -17,12 +18,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://octokit.github.io/routes/routes/api.github.com/index.json')
-      .then(data => data.json())
-      .then(routes => {
-        console.log(routes);
-        return this.setState({ routes })
-      });
+    // fetch('https://octokit.github.io/routes/openapi/api.github.com/index.json')
+    //   .then(data => data.json())
+    //   .then(routes => {
+    //     console.log(routes);
+    //     return this.setState({ routes })
+    //   });
+    this.setState({ routes });
   }
 
   render() {
